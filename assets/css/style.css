@@ -1,0 +1,13 @@
+body {
+    margin:0 auto;
+}
+.card {
+    margin: 0 auto;
+}
+header {
+	height: 60px;
+	/*background: red;*/
+}
+#submit {
+	display: none;
+}
