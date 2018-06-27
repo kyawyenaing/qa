@@ -1,7 +1,7 @@
 <?php
-	$host = "localhost";
+	$host = "mysql://mysql:3306/";
 	$username = "root";
-	$password = "";
-	$db = "q_a";
+	$password = "gYeLi0Ktn5HbnMkP";
+	$db = "sampledb";
 	$conn = mysqli_connect($host,$username,$password);
 	mysqli_select_db($conn,$db);
