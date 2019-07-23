@@ -14,9 +14,9 @@
 		<div class="col-md-9">
 			<div class="card">
 				<div class="card-body">
-					<b class="card-title">
+					<strong class="card-title">
 						<?= $questions['title'];?>
-					</b>
+					</strong>
 					<b class="pull-right">
 					By
 						<?= $questions['user_name'];?>
@@ -66,8 +66,12 @@
 									</li>
 								<?php endwhile;?>
 								<li class="list-group-item">
-								<form class="form-horizontal" action="comment.php" method="post">
-								    <a data-id="" class="red" data-toggle="modal" data-target="#exampleModal">
+								<form class="form-horizontal" action="comment.php" method="post">	
+									<input type="hidden" name="question_id" value="<?= $id?>">
+        							<input type="hidden" name="answer_id" value="<?= $ans_id?>">
+        							<input type="hidden" name="user_id" value="1">
+        							<textarea id="body" rows="10" cols="50" class="form-control" name="body"></textarea>
+								    <a data-id="" class="red" data-toggle="modal" data-target="#exampleModal" href="#exampleModal">
 								      Reply
 								  </a>
 								</form>

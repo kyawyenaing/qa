@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>Questions and Answers</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<link rel="stylesheet" type="text/css" href="assets/font-awesome/css/font-awesome.min.css">
@@ -45,4 +46,5 @@
 </body>
 <script src="assets/js/jquery-3.2.1.min.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/custom.js"></script>
 </html>

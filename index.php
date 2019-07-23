@@ -47,8 +47,6 @@
 			</div>
 		</div>
 		<?php 
-		include("config/conf.php");
-
 		$qry = "SELECT name FROM categories";
 		$output = mysqli_query($conn,$qry);
 		?>
@@ -75,7 +73,7 @@
 						</div>
 						<div class="form-group">
 							<label class="label-control">Question</label>
-							<textarea name="body" class="form-control"></textarea>
+							<textarea name="body" class="form-control" id="body"></textarea>
 						</div>
 						<div class="form-group">
 							<label class="label-control">Upload image(optional)</label>
@@ -92,6 +90,7 @@
 		</div>
 	</div>
 </div>	
+
 <script type="text/javascript">
 	$(document).ready(function(){
 		setTimeout(function(){
